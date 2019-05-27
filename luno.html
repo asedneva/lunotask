@@ -1,0 +1,439 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<head>
+<meta charset="utf-8">
+<title>LUNO</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+
+</style>
+
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+
+<meta http-equiv="CACHE-CONTROL" content="NO-STORE" />
+
+<meta http-equiv="Expires" content="-1" />
+
+  </head>
+<body >
+
+
+
+
+
+<style>
+@media only screen and (max-width: 479px)
+{
+.content-wrapper {
+padding: 5% 5%;
+}
+}
+
+p {
+line-height: 150%;
+
+}
+
+
+@media screen and (min-width: 980px)
+{
+h1 {
+font-size: 36px;
+}
+
+}
+@media screen and (min-width: 1280px)
+{
+h1 {
+font-size: 40px;
+}
+
+}
+
+@media only screen and (max-width: 979px) {
+h1 {
+font-size: 24px;
+line-height: 130%;
+}
+}
+#content .columns-1 #column-1 {
+display: block;
+}
+
+
+
+
+p + h1,
+p + h2,
+p + h3,
+p + h4 {
+margin-top: 1.4em;
+}
+
+
+.content-item {
+margin: 0;
+}
+.tbl-points {
+border-collapse: collapse;
+width: 75%;
+margin:auto;
+}
+.tbl-points td {
+padding: .25em;
+width: 20%;
+vertical-align: top;
+text-align: center;
+}
+.tbl-points td img {
+width: 64px;
+height: 64px;
+margin-bottom: 1em;
+}
+.tbl-points td p {
+padding: .25em;
+color: #9e9e9e;
+font-size: 16px;
+}
+@media screen and (max-width: 600px) {
+.tbl-points td {
+display: block;
+width: 100%;
+padding: 0;
+text-align: left;
+}
+.tbl-points td img {
+display: none;
+}
+.menupadding {
+    padding-top: 120px;
+}
+
+}
+.center{
+	text-align: center;
+}
+h4{
+	color: #12326b;
+}
+h2 {
+    
+    font-size: 34px;
+   
+    color: #12326b;
+    text-align: center;
+}
+.darkbg{
+	 color: #ffffff;
+}
+
+.bg-luno1{
+	background-image: url(https://d32exi8v9av3ux.cloudfront.net/web/2019/05/23/b580dab/website/pages/index/im_luno_landing_circles.png),linear-gradient(0deg,#12326b 0,#12326b 100%);
+    background-size: cover;
+    min-height: 750px;
+    background-position: 50% 40%;
+
+  
+}
+.bg-luno2{
+	background-image: url(https://d32exi8v9av3ux.cloudfront.net/web/2019/05/23/b580dab/website/pages/index/im_luno_landing_circles.png),linear-gradient(0deg,#12326b 0,#12326b 100%);
+    background-size: cover;
+    min-height: 350px;
+    background-position: 50% 40%;
+
+  
+}
+
+.content-section {
+    padding: 0 20px 0 100px;
+}
+.content-block {
+    font-size: 18px;
+}
+.row .col {
+    float: left;
+    width: 46.43%;
+}
+.content-block{
+	padding-top: 7%;
+}
+
+.iphone{
+	    width: 55%;
+    margin-left: 10%;
+}
+.header {
+	 background-color:	transparent;
+  padding: 10px 16px;
+
+  color: #f1f1f1;
+  width: 100%;
+  height: 25px;
+  position:fixed;
+  margin-top: -8px;
+  top: 0;
+  left: 0;
+}
+.header img{
+	float: left;
+}
+
+
+.active {
+  background: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body {
+	    width: 100%;
+    margin: 0;
+}
+
+.button {
+ width: 100px;
+
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+    background-color: white; 
+    color: #12326b;
+
+  border: 2px solid #008CBA;
+}
+.button:hover {
+  background-color: #008CBA;
+  color: #ffffff;
+}
+.content-item img{
+	max-width: 55%;
+	height: auto;
+}
+.uber{
+	width:50%;
+	height: auto;
+}
+.contet-wrapper{
+	margin-bottom: 5%;
+}
+@media only screen and (max-width: 600px) {
+  .row .col{
+  	width: 100%;
+  }
+  .content-item img {
+ 
+    height: auto;
+    max-width: 100%;
+}
+.iphone {
+    width: 100%;
+    margin: auto;
+}
+.content-section {
+    padding: 0px 20px 0 20px;
+}
+
+}
+@media only screen and (max-width: 1280px) and (min-width: 700px) {
+	.bg-luno1{
+			min-height: 500px;
+	}
+
+}
+
+</style>
+<script>
+$(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 50) {
+            $(".header").addClass("active");
+            $( "#logo2" ).css( "display", "block" );
+           $( "#logo1" ).css( "display", "none" );
+        } else {
+           
+           $(".header").removeClass("active");
+           $( "#logo1" ).css( "display", "block" );
+           $( "#logo2" ).css( "display", "none" );
+        }
+    });
+});
+</script>
+
+
+<div class="header" >
+  
+  <img src="logo-white.png" id="logo1" width="60">
+  <img src="luno-logo.svg" id="logo2" width="60" style="padding-top:5px;">
+
+</div>
+<div class="content-wrapper darkbg bg-luno1 menupadding">
+		<div class="inner">
+				<div class="content-section">
+						<div class="content-block">
+								<div class="row">
+										<div class="col">
+												<div class="content-item">
+														<img class="iphone" src="https://d32exi8v9av3ux.cloudfront.net/web/2019/05/23/b580dab/website/pages/index/img_header-devices_eur@2x.png">
+												</div>
+										</div>
+										<div class="col">
+												<div class="content-item">
+														<h1>Uber promo campaign</h1>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+												</div>
+
+										</div>
+
+	
+
+								</div>
+						</div>
+				</div>
+		</div>
+</div>
+<div class="content-wrapper bg-default" id="avasta-opi">
+		<div class="inner">
+				<div class="content-section">
+						<div class="content-block">
+								<div class="content-item">
+										<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+
+								</div>
+								<div class="content-item">
+										<table class="tbl-points">
+											<tr>
+												<td>
+													<img src="https://d32exi8v9av3ux.cloudfront.net/web/2019/05/23/b580dab/website/pages/index/icon-trusted.svg">
+													<h4>Lorem ipsum dolor</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+												</td>
+												<td>
+													<img src="https://d32exi8v9av3ux.cloudfront.net/web/2019/05/23/b580dab/website/pages/index/icon-built.svg">
+													<h4>Lorem ipsum dolor</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+												</td>
+												<td>
+													<img src="https://d32exi8v9av3ux.cloudfront.net/web/2019/05/23/b580dab/website/pages/index/icon-global.svg">
+													<h4>Lorem ipsum dolor</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+												</td>
+												<td>
+													<img src="https://d32exi8v9av3ux.cloudfront.net/web/2019/05/23/b580dab/website/pages/index/icon-secure.svg">
+													<h4>Lorem ipsum dolor</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+												</td>
+
+											</tr>
+
+										</table>
+							</div>
+							<div class="content-item center">
+								<div class="button"> Button </div>
+							</div>
+
+						</div>
+				</div>
+			</div>
+		</div>
+</div>
+<div class="content-wrapper">
+		<div class="inner">
+				<div class="content-section">
+						<div class="content-block">
+								
+									
+												<div class="content-item">
+
+													<table class="tbl-points">
+
+														<tr>
+																<td>
+																		<img src="uber1.jpg" class="uber"  style="width:300px; height:auto; ">
+
+																</td>
+																<td>
+																		<h2>Uber promo campaign</h2>
+																		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+																</td>
+
+														</tr>
+
+													</table>
+
+								</div>
+						</div>
+					</div>
+			</div>
+</div>
+<div class="content-wrapper">
+		<div class="inner">
+				<div class="content-section">
+						<div class="content-block">
+								
+									
+												<div class="content-item">
+
+													<table class="tbl-points">
+
+														<tr>
+																
+																<td>
+																		<h2>Uber promo campaign</h2>
+																		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+																</td>
+																<td>
+																		<img src="uber2.jpg" class="uber" style="width:300px; height:auto; ">
+
+																</td>
+
+														</tr>
+
+													</table>
+
+								</div>
+						</div>
+					</div>
+			</div>
+</div>
+
+<div class="content-wrapper darkbg bg-luno2 menupadding">
+		<div class="inner">
+				<div class="content-section">
+						<div class="content-block">
+
+								<div class="content-item center">
+										<h1>Uber promo campaign</h1>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+								</div>
+						</div>
+				</div>
+		</div>
+</div>
+
+
+<footer>
+ <img src="luno-logo.svg">
+</footer>
+
+
+
+
+</html>
